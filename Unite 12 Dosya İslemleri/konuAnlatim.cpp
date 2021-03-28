@@ -10,7 +10,7 @@ int main() {
 	dosyaYazilacak.open("yazilacakDosya.txt"); // Dosyayı açmaya, yoksa da oluşturmaya yarar.
 	if (dosyaYazilacak.is_open()) { // .is_open() dosyanın açılıp açılmadığını teyit eder. Kontrol için gereklidir.
 		dosyaYazilacak << "veri" << "\n";
-		dosyaYazilacak << "ananı sikeyim altuğ" << "\n";
+		dosyaYazilacak << "hayda bu nereden çıktı" << "\n";
 		dosyaYazilacak.close();
 	} else cout << "Dosya açılamadı." << endl; // Neden açılamayabilir? Kullanıcı olarak haklarınız yoktur, başka bir program üzerinde çalışıyordur vs.
 	
